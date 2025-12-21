@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chomnis Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="1landingPage.css">
+    <link rel="stylesheet" href="2garagePage.css">
 </head>
 <body>
     <div class="header">
@@ -14,7 +15,7 @@
             <img id="Logo" src="Chomnis logo.png">
             <div class="navigation">
                 <a id="Home">Home</a>
-                <a id="Garage" href="2garagePage.html">Garage</a>
+                <a id="Garage">Garage</a>
                 <a id="EmergencyService">Emergency Service</a>
                 <a id="Messages">Messages</a>
                 <a id="AboutUs">About us</a>   
@@ -36,22 +37,13 @@
         </div>
     </div>
     <div class="rectangle"></div>
-    <img id="landingPhoto" src="h-1landingPhoto.jpg" alt="LandingPhoto">
-    <div class="Chomnis">
-        <div>
-            <img src="h-2.jpg" style="margin-left: 50px;" alt="Chomnis">
-        </div>
-        <div class="paragraph">
-            <span class="first">Chomnis</span>
-            <span class="second">– Your Easy Way to Book Vehicle Repair & Maintenance.</span>
-            <span class="third">Find trusted mechanic shops anytime and anywhere. Chomnis helps
-                you book appointments, find 24-hour emergency services and schedule regular vehicle check-ups all in one simple platform. Whether your car breaks down at night or just needs a monthly check-up, Chomnis connects you with reliable shops near you in seconds.</span>
-
-        </div>
+    <div class="LocationInput">
+        <p>Enter your location to see nearby mechanic shops</p>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="user-Location" placeholder="Enter your location" > 
     </div>
-    <p id="wordsuggestion">Suggestion for you</p>
+    <p id="recommended">Recommended for you</p>
     <div class="rectangle"></div>
-    <br>
     <div class="Suggestion">
         <div class="suggestion1">
             <img src="h-suggestion1.jpg" alt="suggestion1">
@@ -135,41 +127,175 @@
                 <a>Book Now</a>
             </div>
             
-        </div>  
-    </div>
-    <br>
-    <br>
-    <div class="rectangle"></div>
-    <p id="why-Chomnis-text">Why choose Chomnis?</p>
-    <div class="why-choose-Chomnis">
-        <div class="why-Chomnis">
-            <div class="first-reason">
-                <img src="h-reason1.png">
-                <div class="reasons">
-                    <p class="main-reason">Fast and Easy Booking, Anytime</p>
-                    <p class="reason-description">Find nearby mechanic shops, view their availability, and book an appointment in just a few clicks anytime from your phone or computer without stress.</p>
+        </div> 
+        <div class="suggestion3">
+            <img src="h-suggestion3.jpg" alt="suggestion3">
+            <p class="name-garage">Fast Fix Auto</p>
+            <div class="info-garage">
+                <div class="row">
+                    <span class="service">Service:</span>
+                    <span>Car repair & maintenanc</span>
                 </div>
-            </div>
-            <div class="second-reason">
-                <img src="h-reason2.png">
-                <div class="reasons">
-                    <p class="main-reason">Trusted Repair Shops</p>
-                    <p class="reason-description">Every shop on Chomnis is verified and includes real location details, clear service lists, working hours, and honest customer ratings to help you choose with confidence. </p>
 
+                <div class="row">
+                    <span class="location">Location:</span>
+                    <span>#1900, Phnom Penh Thmey, Sen Sok, Phnom Penh</span>
                 </div>
-            </div>
-            <div class="third-reason">
-                <img src="h-reason3.png">
-                <div class="reasons">
-                    <p class="main-reason">All in One Platform</p>
-                    <p class="reason-description">From emergency roadside help to regular vehicle maintenance, you can manage all bookings, chats, reminders, and service history in one simple and convenient platform. </p>
 
+                <div class="row">
+                    <span class="openHour">Opening hours:</span>
+                    <span>8:00 AM - 9:00 PM</span>
                 </div>
+
+               
+            </div>
+
+            <div class="book-now">
+                <a>Book Now</a>
             </div>
             
-        </div>
-        <img src="h-why-chomnish.jpg" id="why-Chomnis-photo" alt="Why-Chomnis">
+        </div> 
+        <div class="suggestion3">
+            <img src="h-suggestion3.jpg" alt="suggestion3">
+            <p class="name-garage">Dila Garage</p>
+            <div class="info-garage">
+                <div class="row">
+                    <span class="service">Service:</span>
+                    <span>MAuto repair and general maintenance.</span>
+                </div>
+
+                <div class="row">
+                    <span class="location">Location:</span>
+                    <span>Phnom Penh (near National Rd 146)</span>
+                </div>
+
+                <div class="row">
+                    <span class="openHour">Opening hours:</span>
+                    <span>7:00 AM - 8:00 PM</span>
+                </div>
+
+               
+            </div>
+
+            <div class="book-now">
+                <a>Book Now</a>
+            </div>
+            
+        </div> 
+        <div class="suggestion3">
+            <img src="h-suggestion3.jpg" alt="suggestion3">
+            <p class="name-garage">Klay Auto Service</p>
+            <div class="info-garage">
+                <div class="row">
+                    <span class="service">Service:</span>
+                    <span>General auto repair and diagnostics.</span>
+                </div>
+
+                <div class="row">
+                    <span class="location">Location:</span>
+                    <span>Street 1003, Phnom Penh</span>
+                </div>
+
+                <div class="row">
+                    <span class="openHour">Opening hours:</span>
+                    <span>7:00 AM - 10:00 PM</span>
+                </div>
+
+               
+            </div>
+
+            <div class="book-now">
+                <a>Book Now</a>
+            </div>
+            
+        </div> 
+        <div class="suggestion3">
+            <img src="h-suggestion3.jpg" alt="suggestion3">
+            <p class="name-garage">Ehicle service center</p>
+            <div class="info-garage">
+                <div class="row">
+                    <span class="service">Service:</span>
+                    <span>Auto repair and mechanical service.</span>
+                </div>
+
+                <div class="row">
+                    <span class="location">Location:</span>
+                    <span>Street BT, Phnom Penh.</span>
+                </div>
+
+                <div class="row">
+                    <span class="openHour">Opening hours:</span>
+                    <span>9:00 AM - 11:00 PM</span>
+                </div>
+
+               
+            </div>
+
+            <div class="book-now">
+                <a>Book Now</a>
+            </div>
+            
+        </div> 
+        <div class="suggestion3">
+            <img src="h-suggestion3.jpg" alt="suggestion3">
+            <p class="name-garage">R&Y Garage</p>
+            <div class="info-garage">
+                <div class="row">
+                    <span class="service">Service:</span>
+                    <span>Car repair and maintenance service</span>
+                </div>
+
+                <div class="row">
+                    <span class="location">Location:</span>
+                    <span>Street 2009, Phnom Penh.</span>
+                </div>
+
+                <div class="row">
+                    <span class="openHour">Opening hours:</span>
+                    <span>8:00 AM - 9:00 PM</span>
+                </div>
+
+               
+            </div>
+
+            <div class="book-now">
+                <a>Book Now</a>
+            </div>
+            
+        </div> 
+        <div class="suggestion3">
+            <img src="h-suggestion3.jpg" alt="suggestion3">
+            <p class="name-garage">Linas Garage</p>
+            <div class="info-garage">
+                <div class="row">
+                    <span class="service">Service:</span>
+                    <span>Oil change and tune-ups, basic maintenance</span>
+                </div>
+
+                <div class="row">
+                    <span class="location">Location:</span>
+                    <span>Russian Federation Blvd (110), Phnom Penh</span>
+                </div>
+
+                <div class="row">
+                    <span class="openHour">Opening hours:</span>
+                    <span>9:00 AM - 10:00 PM</span>
+                </div>
+
+               
+            </div>
+
+            <div class="book-now">
+                <a>Book Now</a>
+            </div>
+            
+        </div> 
+        
+ 
+
     </div>
+
+    
     
     <footer>
         <div class="footer">
