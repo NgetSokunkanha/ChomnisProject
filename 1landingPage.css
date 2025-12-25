@@ -1,6 +1,6 @@
 
 
-.header {
+.header   {
     display: flex;
     justify-content: space-between; 
     align-items: flex-start;
@@ -18,6 +18,14 @@
     gap: 70px;
     margin-top: 40px;
     margin-left: 40px;
+ 
+}
+.navigation > a {
+    text-decoration: none;
+    color: black;
+}
+#Home {
+    text-decoration: underline;
 }
 
 #Logo {
@@ -164,8 +172,12 @@
     align-self: flex-end;  
     margin: 20px 20px  20px 0; 
     transition: 0.3s ease;
+    
 }
-
+.book-now > a {
+    text-decoration: none;
+    color: rgba(29, 144, 162, 1) ;
+}
 .book-now:hover {
     background-color: rgba(105, 210, 228, 0.6);
     color: rgb(17, 124, 140);
@@ -345,4 +357,107 @@ footer {
 
 #Home:hover , #Garage:hover, #EmergencyService:hover ,#Messages:hover, #AboutUs:hover{
     text-decoration: underline;
+}
+
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 30px;
+    }
+
+    .header-left {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .Chomnis {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .Suggestion {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Suggestion img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        padding: 30px 20px;
+    }
+} 
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 10px;
+    }
+
+    .header-left {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }S
+
+    .header-Right {
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .navigation a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #landingPhoto {
+        width: 100%;
+        height: auto;
+    }
+
+    .Chomnis {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    }
+
+    .Chomnis .paragraph {
+        text-align: center;
+    }
+
+    .Suggestion {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .why-choose-Chomnis {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .why-choose-Chomnis img {
+        margin: 20px 0;
+        width: 80%;
+        height: auto;
+    }
+
+    footer {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .social-platforms {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
 }

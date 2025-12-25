@@ -19,6 +19,13 @@
     margin-top: 40px;
     margin-left: 40px;
 }
+.navigation > a {
+    text-decoration: none;
+    color: black;
+}
+#EmergencyService {
+    text-decoration: underline;
+}
 
 #Logo {
     margin-left: 10px;
@@ -137,13 +144,6 @@
     transition: 0.3s ease;
 }
 
-#cancel {
-    background-color: hwb(0 90% 8%);
-}
-#cancel:hover {
-    background-color: rgb(186, 183, 183);
-    transform: scale(1.1);
-}
 #continuous {
     background-color: rgb(214, 3, 3);
 }

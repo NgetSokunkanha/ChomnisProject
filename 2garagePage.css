@@ -19,6 +19,13 @@
     margin-left: 40px;
 }
 
+.navigation > a {
+    text-decoration: none;
+    color: black;
+}
+#Garage {
+    text-decoration: underline;
+}
 #Logo {
     margin-left: 10px;
     width: 120px;
@@ -144,6 +151,10 @@
     align-self: flex-end;  
     margin: 20px 20px  20px 0; 
     transition: 0.3s ease;
+}
+.book-now > a {
+    color: rgba(29, 144, 162, 1) ;
+    text-decoration: none;
 }
 
 .book-now:hover {

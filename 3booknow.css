@@ -21,6 +21,10 @@ body {
     margin-top: 40px;
     margin-left: 40px;
 }
+.navigation > a {
+    text-decoration: none;
+    color: black;
+}
 
 #Logo {
     margin-left: 10px;
